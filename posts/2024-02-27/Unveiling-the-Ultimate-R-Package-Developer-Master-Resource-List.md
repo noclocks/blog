@@ -1,12 +1,10 @@
 ---
 title: "Unveiling the Ultimate R Package Developer Master Resource List"
-seoTitle: "R Package Development"
-seoDescription: "Resources for the R Package Developer"
-datePublished: "Tue Feb 27 2024 17:44:47 GMT+0000 (Coordinated Universal Time)"
-cuid: clt4nqypo000709jr5pa39o5n
-slug: "unveiling-the-ultimate-r-package-developer-master-resource-list"
-cover: "https://cdn.hashnode.com/res/hashnode/image/upload/v1707151466448/fa9f1cf4-87c0-4276-b2ac-d06998cf4ac5.png"
-tags: [ "resources", "tools", "r", "packages", "list", "package-development", "developer-productivity" ]
+subtitle: "R Package Development"
+published: true
+tags: resources, tools, r, packages, list, package-development, developer-productivity
+canonical_url: https://blog.noclocks.dev/unveiling-the-ultimate-r-package-developer-master-resource-list
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1707151466448/fa9f1cf4-87c0-4276-b2ac-d06998cf4ac5.png
 ---
 
 ## Overview
@@ -28,56 +26,56 @@ In summary, while both R users and R developers utilize R for data analysis and 
 ### R Users
 
 * **Definition:** An R user is someone who primarily utilizes R for data analysis, statistical modeling, visualization, and other tasks related to data science, research, or analytics.
-  
+
 * **Skills & Responsibilities:**
-  
+
     * Proficient in using R for data manipulation, exploration, and analysis.
-      
+
     * Familiarity with statistical methods and techniques for interpreting data.
-      
+
     * Ability to create visualizations and plots to communicate insights effectively.
-      
+
     * Understanding of data structures, functions, and packages within R.
-      
+
     * May use R for tasks such as data cleaning, hypothesis testing, regression analysis, and machine learning.
-    
+
 * **Objectives:**
-  
+
     * Analyze and interpret data to derive meaningful insights and make data-driven decisions.
-      
+
     * Communicate findings through reports, presentations, or visualizations.
-      
+
     * Utilize R packages and libraries to streamline analysis workflows and enhance productivity.
-      
+
     * Collaborate with colleagues or stakeholders to address specific analytical needs or research questions.
-      
+
 
 ### R Developer
 
 * **Definition:** An R developer is someone who focuses on creating, maintaining, and extending R packages, libraries, and tools for the broader R community.
-  
+
 * **Skills and Responsibilities:**
-  
+
     * Proficiency in programming with R, including knowledge of object-oriented programming principles, functions, and package development.
-      
+
     * Understanding of software engineering practices such as version control, testing, and documentation.
-      
+
     * Ability to design, implement, and maintain R packages to address specific needs or solve particular problems.
-      
+
     * Familiarity with R package development tools such as `devtools`, `roxygen2`, and `testthat`.
-      
+
     * Contribution to the R ecosystem through the creation of new packages, improvement of existing packages, or participation in community discussions and collaborations.
-    
+
 * **Objectives:**
-  
+
     * Develop and release high-quality R packages that provide valuable functionality to users across different domains.
-      
+
     * Ensure the reliability, efficiency, and usability of R packages through rigorous testing, documentation, and code review.
-      
+
     * Engage with the R community to gather feedback, address issues, and collaborate on package development efforts.
-      
+
     * Stay updated on emerging trends, best practices, and advancements in R programming and package development.
-      
+
 
 ## Getting Started
 
@@ -94,23 +92,23 @@ After you have more than one function it starts to get easy to lose track of wha
 To begin creating an R Package, you need:
 
 * `R` (and `RStudio`)
-  
+
 * Git and GitHub
-  
+
 * Some initial functions
-  
+
 * Development Packages:
-  
+
     * `devtools`
-      
+
     * `usethis`
-      
+
     * `roxygen2`
-      
+
     * `pak`
-      
+
     * `knitr` and `rmarkdown`
-      
+
 
 From there you can continue to naming your package, scaffolding out its structure, adding functions, documentation, metadata, data, license, vignettes, etc.
 
@@ -143,7 +141,7 @@ However, it is very exhaustive a[nd not the most visually-ap](http://cran.fhcrc.
 As Hadley puts it in his book [Wr](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)[iting R Packages: (Wickham](http://cran.fhcrc.org/doc/manuals/R-exts.html) [and](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) [Bryan, n.d.c)](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)
 
 > [*“The best resourc*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)*e for the offic*[*ial details of package deve*](http://cran.fhcrc.org/doc/manuals/R-exts.html)*lopment is always the official writing R extensions manu*[*al. However, this*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) *manual ca*[*n be hard to understand*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham) *if you’re not already famil*[*iar with the basic*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)*s of pack*[*ages. It’s also exhausti*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)*ve, covering every possible* [*package component,*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) *rather t*[*han focusing on the most*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham) *common and useful components, as this book does. Writing R extensions is a useful resource once you’ve mastered the basics and want to learn what’s going on under the hood.”*
-> 
+>
 > *— Hadley Wickham*
 
 Thanks to [Colin Fay](https://colinfay.me/), [a more e](https://colinfay.me/)legant version of the original manual has been created as a [bookdown](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) [site and](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) published online at [https://colinfay.me/writing-r-extensions](https://colinfay.me/writing-r-extensions).
@@ -183,128 +181,128 @@ Next, I will provide a comprehensive list of R Packages that aim to assist the d
 **For automating the development workflow:**
 
 * [`devtools`](https://devtools.r-lib.org/) -
-  
+
 * [`usethis`](https://usethis.r-lib.org/) -
-  
+
 
 For generating manual pages and documentation:
 
 * `roxygen2` -
-  
+
 * `knitr` & `rmarkdown` -
-  
+
 
 For testing -
 
 * `testthat` -
-  
+
 
 For package management and installation:
 
 * `pak` -
-  
+
 * `remotes` -
-  
+
 * `renv` -
-  
+
 
 ### Useful Common Libraries
 
 * `available` - check if a package name is available.
-  
+
 * `lifecycle` - represent package and function development lifecycle stages
-  
+
 * `desc` - Manage and edit the package's `DESCRIPTION`
-  
+
 * `pkgdown` - Generate package documentation static site
-  
+
 * `testdown` -
-  
+
 * `gitdown` -
-  
+
 
 ### Roxygen Tools
 
 * `roxygen2md`
-  
+
 * `roxyglobals`
-  
+
 * `rd2list`
-  
+
 * `Rd2roxygen`
-  
+
 * `rd2markdown`
-  
+
 * `roxygen2comment`
-  
+
 
 ### Dependency Management
 
 * `attachment`
-  
+
 * `renv`
-  
+
 * `pak`
-  
+
 * `remotes`
-  
+
 * `devtools`
-  
+
 * `pacman`
-  
+
 * `automagic`
-  
+
 * `CodeDepends`
-  
+
 * `dep`
-  
+
 * `sysreqs`
-  
+
 * `pkgnet`
-  
+
 * `functiondepends`
-  
+
 
 ### Git and GitHub
 
 * `gert`
-  
+
 * `gitdown`
-  
+
 * `git2r`
-  
+
 * `gh`
-  
+
 * `git4r`
-  
+
 * `gitGPT`
-  
+
 * `precommit`
-  
+
 
 ### Configuration
 
 * `config`
-  
+
 * `pkgconfig`
-  
+
 * `options`
-  
+
 
 ### Credentials & Secrets
 
 * `keyring`
-  
+
 * `credentials`
-  
+
 * `gitcreds`
-  
+
 * `ssh`
-  
+
 * `askpass`
-  
+
 * `config`
-  
+
 
 plus, base R's `Sys.genenv()` and `Sys.setenv()`.
 
@@ -313,356 +311,356 @@ plus, base R's `Sys.genenv()` and `Sys.setenv()`.
 > These packages are not necessarily called directly but are built on top of as dependencies to higher level libraries (i.e. `usethis`, `devtools`, etc.)
 
 * `pkgload`
-  
+
 * `pkgdepends`
-  
+
 * `pkgbuild`
-  
+
 * `pkgcache`
-  
+
 * `pkgapi`
-  
+
 * `pkgnet`
-  
+
 
 ### Linting & Styling
 
 * `goodpractice`
-  
+
 * `lintr`
-  
+
 * `strylr`
-  
+
 * `formatR`
-  
+
 * `stylermd`
-  
+
 * `spelling`
-  
+
 * `roxylint`
-  
+
 * `cleanr`
-  
+
 * `janitor`
-  
+
 * `sanitizers`
-  
+
 * `refactor`
-  
+
 
 ### Documentation
 
 * `docthis`
-  
+
 * `prettydoc`
-  
+
 * quarto
-  
+
     * pkgdown
-      
+
     * testdown
-      
+
     * gitdown
-      
+
     * papillon
-      
+
     * spelling
-      
+
     * fusen
-      
+
     * badger
-      
+
     * badgen
-      
+
     * bookdown
-      
+
     * altdoc
-      
+
     * fledge
-      
+
     * newsmd
-      
+
     * autonewsmd
-      
+
     * docreview
-      
+
     * covrpage
-      
+
 
 ### Metadata
 
 * codemeta
-  
+
 * codemetar
-  
+
 * pkgstats
-  
+
 
 ### Checks & Tests
 
 * testthat
-  
+
 * testdown
-  
+
 * autotest
-  
+
 * tinytest
-  
+
 * shinytest2
-  
+
 * goodpractice
-  
+
 * rcmdcheck
-  
+
 * spelling
-  
+
 * testdat
-  
+
 * validate
-  
+
 * realtest
-  
+
 * roxytest
-  
+
 * autotest
-  
+
 * checkhelper
-  
+
 * codetools
-  
+
 * covr
-  
+
 * covrpage
-  
+
 * checkglobals
-  
+
 * rhub
-  
+
 
 ### Validation and Assertions
 
 * assertthat
-  
+
 * testdat
-  
+
 * validate
-  
+
 
 ### Utilities
 
 * cli
-  
+
 * logger
-  
+
 * snakecase
-  
+
 * prefixer
-  
+
 * addinit
-  
+
 * fusen
-  
+
 * golem
-  
+
 * roger
-  
+
 * patrick
-  
+
 * janitor
-  
+
 * qs
-  
+
 * fs
-  
+
 * purrr
-  
+
 * oysteR
-  
+
 * foghorn
-  
+
 * cranlogs
-  
+
 * dlstats
-  
+
 * actions
-  
+
 * rworkflows
-  
+
 * tic
-  
+
 * gpg
-  
+
 * debugr
-  
+
 * valtools
-  
+
 * ssh
-  
+
 * checkmate
-  
+
 * assertive
-  
+
 * assertthat
-  
+
 * pkgcond
-  
+
 * validate
-  
+
 * riskmetric
-  
+
 * represtools
-  
+
 * containerit
-  
+
 * dockerfiler
-  
+
 * packer
-  
+
 * htmltools
-  
+
 * onetime
-  
+
 * gitignore
-  
+
 * dbx
-  
+
 * RPostgres
-  
+
 * DBI
-  
+
 * dbplyr
-  
+
 * fs
-  
+
 * gh
-  
+
 * whoami
-  
+
 * sessioninfo
-  
+
 * plumber
-  
+
 * rprojroot
-  
+
 * here
-  
+
 * whisker
-  
+
 * config
-  
+
 * knitr
-  
+
 * rmarkdown
-  
+
 * magick
-  
+
 * spelling
-  
+
 * desc
-  
+
 * waldo
-  
+
 * goodpractice
-  
+
 * conflicted
-  
+
 * connections
-  
+
 * stringr
-  
+
 * lubridate
-  
+
 * dm
-  
+
 * datamodelr
-  
+
 * vctrs
-  
+
 * webfakes
-  
+
 * ps
-  
+
 * evaluate
-  
+
 * systemfonts
-  
+
 * later
-  
+
 * future
-  
+
 * promises
-  
+
 * pillar
-  
+
 * pretyunits
-  
+
 * processx
-  
+
 * callr
-  
+
 * withr
-  
+
 * cachem
-  
+
 * memoise
-  
+
 * bench
-  
+
 * R6
-  
+
 * ymlthis
-  
+
 * piggyback
-  
+
 * itdepends
-  
+
 * debugme
-  
+
 * dependencies
-  
+
 * assert
-  
+
 * pointblank
-  
+
 * docthis
-  
+
 * ellipsis
-  
+
 * miniUI
-  
+
 * rversions
-  
+
 * profvis
-  
+
 * digest
-  
+
 * pingr
-  
+
 * rhub
-  
+
 * automagic
-  
+
 * pacman
-  
+
 * rcompendium
-  
+
 * litr
-  
+
 * leprechaun
-  
+
 * pkgverse
-  
+
 * metamakr
-  
+
 
 ## Summary
 
 1. Understanding the Basics: Before delving into the intricacies of package development, it's crucial to grasp the fundamental concepts of R programming. Resources like "R for Data Science" by Hadley Wickham and Garrett Grolemund serve as an excellent starting point for beginners, providing a comprehensive overview of R programming essentials and data manipulation techniques.
-   
+
 2. Mastering Package Development: Once you've familiarized yourself with the basics, it's time to dive into the world of package development. The "R Packages" book by Hadley Wickham is the go-to resource for understanding the principles of package structure, documentation, and best practices. Additionally, online tutorials from platforms like DataCamp and RStudio provide hands-on guidance for creating your first R package from scratch.
-   
+
 3. Harnessing the Power of Version Control: Effective version control is essential for managing the development and collaboration of R packages. Platforms like GitHub offer robust version control capabilities, allowing developers to track changes, collaborate with peers, and maintain a history of their package development journey. Resources such as "Happy Git and GitHub for the useR" by Jenny Bryan provide comprehensive guides to mastering Git and GitHub workflows tailored specifically for R users.
-   
+
 4. Engaging with the Community: The R community is a vibrant ecosystem bustling with passionate developers, users, and enthusiasts. Engaging with online communities such as Stack Overflow, RStudio Community, and the R4DS Slack channel enables you to seek guidance, share insights, and collaborate with fellow developers. Conferences like useR! and rstudio::conf provide opportunities to connect with experts, attend workshops, and stay updated on the latest trends in R package development.
-   
+
 5. Streamlining Development with Tools and Packages: As you progress on your journey, leveraging tools and packages designed for R package development can significantly enhance your productivity and efficiency. Tools like devtools, roxygen2, and testthat streamline package development tasks such as building, documenting, and testing your code. Additionally, exploring specialized packages like usethis and pkgdown empowers you to automate common development workflows and create polished package documentation and websites with ease.
