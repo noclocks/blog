@@ -459,3 +459,7 @@ plus, base R's `Sys.genenv()` and `Sys.setenv()`.
 4. Engaging with the Community: The R community is a vibrant ecosystem bustling with passionate developers, users, and enthusiasts. Engaging with online communities such as Stack Overflow, RStudio Community, and the R4DS Slack channel enables you to seek guidance, share insights, and collaborate with fellow developers. Conferences like useR! and rstudio::conf provide opportunities to connect with experts, attend workshops, and stay updated on the latest trends in R package development.
 
 5. Streamlining Development with Tools and Packages: As you progress on your journey, leveraging tools and packages designed for R package development can significantly enhance your productivity and efficiency. Tools like devtools, roxygen2, and testthat streamline package development tasks such as building, documenting, and testing your code. Additionally, exploring specialized packages like usethis and pkgdown empowers you to automate common development workflows and create polished package documentation and websites with ease.
+
+## Schedule with Us
+
+%%[scheduler]
