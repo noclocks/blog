@@ -11,6 +11,11 @@ tags: productivity, r, lists, package-development
 
 ---
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCRLP6SS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 ## Overview
 
 > This article aims to provide an exhaustive list of helpful tools, packages, and resources for developers, authors, maintainers, reviewers, and stakeholders in the R Package development workflow.
