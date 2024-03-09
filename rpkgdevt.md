@@ -99,8 +99,6 @@ Anyone who is serious about developing production grade R packages needs to be f
 
 <center><p>Table 1: R Package Developer Essentials</p></center>
 
-<center>
-
 | **Resource** | **Source** |
 | --- | --- |
 | [Writing R Extensions](http://cran.fhcrc.org/doc/manuals/R-exts.html) | [CRAN Manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html) |
@@ -108,9 +106,6 @@ Anyone who is serious about developing production grade R packages needs to be f
 | [R](https://cran.r-project.org/manuals.html) [Package Pri](http://cran.fhcrc.org/doc/manuals/R-exts.html)[me](https://cran.r-project.org/manuals.html)[r](http://cran.fhcrc.org/doc/manuals/R-exts.html) | [Karl Br](http://cran.fhcrc.org/doc/manuals/R-exts.html)[oman](https://cran.r-project.org/manuals.html) |
 | [Package Gu](http://cran.fhcrc.org/doc/manuals/R-exts.html)[idelines](https://cran.r-project.org/manuals.html) | [Biocondu](http://cran.fhcrc.org/doc/manuals/R-exts.html)[ctor](https://cran.r-project.org/manuals.html) |
 | [rOpenSc](http://cran.fhcrc.org/doc/manuals/R-exts.html)[i Packages](https://cran.r-project.org/manuals.html) [Developer G](http://cran.fhcrc.org/doc/manuals/R-exts.html)[uide](https://cran.r-project.org/manuals.html) | [rOpenSci](http://cran.fhcrc.org/doc/manuals/R-exts.html) |
-
-</center>
-
 
 <details><summary>View Citations:</summary><p>
 <span class="citation">(<a href="#ref-wickhamb">Wickham and Bryan, n.d.a</a>, <a href="#ref-wickhamc">n.d.b</a>; <a href="#ref-whypacka"><span>“Why Package and Environment Management Is Critical for Serious Data Science,”</span> n.d.a</a>, <a href="#ref-whypackb">n.d.b</a>; <a href="#ref-vidoni">Vidoni, n.d.</a>; <a href="#ref-initiativea">Initiative, n.d.</a>; <a href="#ref-anintro"><span>“An Introduction to Packager,”</span> n.d.</a>; <a href="#ref-gandrud2015">Gandrud 2015</a>; <a href="#ref-glennie2020">Glennie 2020</a>; <a href="#ref-owen-the"><span>“Owen-TheRGuide.pdf,”</span> n.d.</a>; <a href="#ref-riederera">Riederer, n.d.</a>; <a href="#ref-spector2004">Spector 2004</a>; <a href="#ref-teama">Team, n.d.</a>; <a href="#ref-zhua">Zhu and Jianan, n.d.</a>)</span>
