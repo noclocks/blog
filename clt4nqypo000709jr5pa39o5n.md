@@ -7,7 +7,6 @@ cuid: clt4nqypo000709jr5pa39o5n
 slug: unveiling-the-ultimate-r-package-developer-master-resource-list
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707151466448/fa9f1cf4-87c0-4276-b2ac-d06998cf4ac5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1710012317304/27960c34-60db-44c4-a002-5b08c35005f7.png
-tags: lists, package-development, r-cjxu2ot2i000u7os1rdapoiqi
 
 ---
 
