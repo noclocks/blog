@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Test Article
 subtitle: An example subtitle
 slug: post-from-github-as-source
 tags: reactjs, css, python, nodejs
