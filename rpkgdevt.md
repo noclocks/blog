@@ -113,21 +113,17 @@ Anyone who is serious about developing production grade R packages needs to be f
 
 ### Writing R Extensions Manual
 
-The [Writing R Extensions Manual](http://cran.fhcrc.org/doc/manuals/R-exts.html) [is perhaps the most crucial](http://cran.fhcrc.org/doc/manuals/R-exts.html) resource listed above, and has even been considered the *Bible of R Package Development*.
+The [Writing R Extensions Manual](http://cran.fhcrc.org/doc/manuals/R-exts.html) is perhaps the most crucial resource listed above, and has even been considered the *Bible of R Package Development*.
 
-However, it is very exhaustive a[nd not the most visually-ap](http://cran.fhcrc.org/doc/manuals/R-exts.html)pealing write-up.
+As Hadley puts it in his book [Writing R Packages](http://cran.fhcrc.org/doc/manuals/R-exts.html):
 
-As Hadley puts it in his book [Wr](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)[iting R Packages: (Wickham](http://cran.fhcrc.org/doc/manuals/R-exts.html) [and](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) [Bryan, n.d.c)](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)
-
-> [*“The best resourc*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)*e for the offic*[*ial details of package deve*](http://cran.fhcrc.org/doc/manuals/R-exts.html)*lopment is always the official writing R extensions manu*[*al. However, this*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) *manual ca*[*n be hard to understand*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham) *if you’re not already famil*[*iar with the basic*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)*s of pack*[*ages. It’s also exhausti*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham)*ve, covering every possible* [*package component,*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) *rather t*[*han focusing on the most*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/#ref-wickham) *common and useful components, as this book does. Writing R extensions is a useful resource once you’ve mastered the basics and want to learn what’s going on under the hood.”*
->
+> *"The best resource for the official details of package development is always the official writing R extensions manual. However, this manual can be hard to understand if you’re not already familiar with the basics of packages. It’s also exhaustive, covering every possible package component, rather than focusing on the most common and useful components, as this book does. Writing R extensions is a useful resource once you’ve mastered the basics and want to learn what’s going on under the hood.”*
+> 
 > *— Hadley Wickham*
 
-Thanks to [Colin Fay](https://colinfay.me/), [a more e](https://colinfay.me/)legant version of the original manual has been created as a [bookdown](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) [site and](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/) published online at [https://colinfay.me/writing-r-extensions](https://colinfay.me/writing-r-extensions).
+Thanks to [Colin Fay](https://colinfay.me/), a more elegant version of the original manual has been created as a bookdown site and published online at <https://colinfay.me/writing-r-extensions>.
 
-[This resource is hig](https://colinfay.me/writing-r-extensions)[hly encou](https://colinfay.me/)[raged for](https://colinfay.me/writing-r-extensions) anyone taking R Package Development seriously.
-
-*Note: The o*[*ther man*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)*u*[*als liste*](https://colinfay.me/)*d on the* [*CRAN Manuals website*](https://cran.r-project.org/manuals.html) *contain a lot of hidde*[*n gems that are o*](https://colinfay.me/writing-r-extensions)[*ften ove*](https://jimsdocs.jimbrig.com/posts/2021-12-18-2-r-package-developer-essentials/)[*rlooked by R de*](https://colinfay.me/writing-r-extensions)*velopers. These resources contain some of the m*[*ost crucial, foundational knowledge that*](https://colinfay.me/writing-r-extensions) *anyone u*[*sing R shoul*](https://cran.r-project.org/manuals.html)*d eventually be made aware of, therefore I highly recommend you check those* [*out in addi*](https://cran.r-project.org/manuals.html)*tion to Writing R Extensions*.
+*Note: The other manuals listed on the [CRAN Manuals website](https://cran.r-project.org/manuals.html) contain a lot of hidden gems that are often overlooked by R developers. These resources contain some of the most crucial, foundational knowledge that anyone using R should eventually be made aware of, therefore I highly recommend you check those out in addition to Writing R Extensions*.
 
 ### R Packages Book
 
