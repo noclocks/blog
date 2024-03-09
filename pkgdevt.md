@@ -7,7 +7,6 @@ canonical_url: https://blog.noclocks.dev/unveiling-the-ultimate-r-package-develo
 cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1707151466448/fa9f1cf4-87c0-4276-b2ac-d06998cf4ac5.png
 domain: blog.noclocks.dev
 ignorePost: false
-publishAs: jimbrig
 hideFromHashnodeCommunity: false
 seoTitle: "Unveiling the Ultimate R Package Developer Master Resource List"
 seoDescription: "Resources for the R Package Developer"
