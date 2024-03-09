@@ -17,6 +17,8 @@
 
 ### Features
 
+- Testing blog postage
+- Add script to auto-generate posts
 - Add changelog
 - Add published folder
 - Add scripts and deps
